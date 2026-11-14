@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="km">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>បណ្ណាល័យ ជុំ សុវណ្ណ</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#101827;color:#f8fafc}
+header{background:#17243a;padding:25px 16px;text-align:center}
+header h1{color:#f5c96b;margin:5px}
+header p{color:#d4dbea}
+nav{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;background:#0c1422;padding:15px}
+nav a{color:white;text-decoration:none;padding:8px 12px}
+.hero{text-align:center;padding:55px 18px;background:linear-gradient(135deg,#17243a,#263e60)}
+.hero h2{font-size:29px;color:#f5c96b}
+.hero p{line-height:1.9}
+button{background:#d8a943;color:#172033;border:0;border-radius:8px;padding:12px 20px;font-weight:bold}
+main{max-width:1000px;margin:auto;padding:22px}
+h2.section{color:#f5c96b;border-bottom:1px solid #40516b;padding-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:14px}
+.card{background:#1d2b41;border:1px solid #354761;border-radius:12px;padding:20px;text-align:center}
+.card h3{color:#f5c96b}
+.card p{line-height:1.7}
+a.cardlink{color:inherit;text-decoration:none}
+.notice{background:#1d2b41;padding:18px;border-radius:12px;line-height:1.8}
+footer{text-align:center;background:#0c1422;padding:25px;color:#cbd5e1;margin-top:30px}
+</style>
+</head>
+<body>
+<header>
+<h1>បណ្ណាល័យ ជុំ សុវណ្ណ</h1>
+<p>CHUM SOVANN ONLINE LIBRARY</p>
+<p>រៀនភាសាជប៉ុន ឆ្ពោះទៅកាន់អនាគត</p>
+</header>
+
+<nav>
+<a href="#home">ទំព័រដើម</a>
+<a href="#books">សៀវភៅ</a>
+<a href="#dictionary">វចនានុក្រម</a>
+<a href="#lessons">មេរៀន</a>
+<a href="#contact">ទំនាក់ទំនង</a>
+</nav>
+
+<section class="hero" id="home">
+<h2>សូមស្វាគមន៍មកកាន់បណ្ណាល័យ ជុំ សុវណ្ណ</h2>
+<p>កន្លែងសិក្សាភាសាជប៉ុន ចាប់ពីកម្រិត N5 ដល់ N1</p>
+<button onclick="document.getElementById('books').scrollIntoView({behavior:'smooth'})">
+ចាប់ផ្ដើមសិក្សា
+</button>
+</section>
+
+<main>
+<section id="books">
+<h2 class="section">📚 សៀវភៅភាសាជប៉ុន</h2>
+<div class="grid">
+<div class="card"><h3>N5</h3><p>កម្រិតដំបូង</p></div>
+<div class="card"><h3>N4</h3><p>កម្រិតមូលដ្ឋាន</p></div>
+<div class="card"><h3>N3</h3><p>កម្រិតមធ្យម</p></div>
+<div class="card"><h3>N2</h3><p>កម្រិតខ្ពស់</p></div>
+<div class="card"><h3>N1</h3><p>កម្រិតជំនាញ</p></div>
+</div>
+</section>
+
+<section id="dictionary">
+<h2 class="section">📖 វចនានុក្រមជប៉ុន</h2>
+<div class="notice">
+<p>ស្វែងរកពាក្យជប៉ុន និងអត្ថន័យជាភាសាខ្មែរ។</p>
+<input id="word" placeholder="បញ្ចូលពាក្យជប៉ុន..." style="padding:12px;width:100%;border-radius:8px">
+<p id="result">វចនានុក្រមនឹងបន្ថែមនៅជំហានបន្ទាប់។</p>
+</div>
+</section>
+
+<section id="lessons">
+<h2 class="section">🎓 មេរៀន និងវីដេអូ</h2>
+<div class="grid">
+<div class="card"><h3>មេរៀន N5</h3><p>មេរៀនភាសាជប៉ុនដំបូង</p></div>
+<div class="card"><h3>មេរៀន N4</h3><p>វេយ្យាករណ៍ និងលំហាត់</p></div>
+<div class="card"><h3>វិញ្ញាសា</h3><p>ហាត់ត្រៀមប្រឡង JLPT</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section">📩 ទំនាក់ទំនង</h2>
+<div class="notice">
+<p>អ្នកគ្រប់គ្រង៖ Sovan Sensei</p>
+<p>CHUM SOVANN ONLINE LIBRARY</p>
+</div>
+</section>
+</main>
+
+<footer>
+<p>© 2026 CHUM SOVANN ONLINE LIBRARY</p>
+<p>បង្កើតដោយ ជុំ សុវណ្ណ</p>
+</footer>
+</body>
+</html>
