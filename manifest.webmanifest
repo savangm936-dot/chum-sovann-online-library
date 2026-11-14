@@ -1,0 +1,42 @@
+{
+  "id": "./",
+  "name": "Sovann sense — សៀវភៅភាសាជប៉ុន N5–N1",
+  "short_name": "Sovann sense",
+  "description": "បណ្ណាល័យភាសាជប៉ុន N5–N1 សម្រាប់សិស្សខ្មែរ",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "lang": "km",
+  "dir": "ltr",
+  "background_color": "#f6f8fb",
+  "theme_color": "#10243e",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "education",
+    "books"
+  ]
+}
